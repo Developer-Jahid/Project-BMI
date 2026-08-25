@@ -42,12 +42,12 @@ form.addEventListener("submit", function (e) {
     else if (bmi < 25) {
         status = "Normal Weight";
         width = 50;
-        color = "#00FF7F";
+        color = "#ff00dd";
     }
     else if (bmi < 30) {
         status = "Overweight";
         width = 75;
-        color = "#FFD700";
+        color = "#f07d0a";
     }
     else {
         status = "Obese";

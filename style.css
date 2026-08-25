@@ -44,7 +44,7 @@ body{
     padding:30px;
     color:white;
     text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    box-shadow:0 15px 35px rgba(0,0,0,0.3);
     animation:fadeIn 1s ease;
 }
 
@@ -92,7 +92,7 @@ button{
     padding:14px;
     border:none;
     border-radius:10px;
-    background:#00ffb3;
+    background:#aaf302;
     color:#111;
     font-size:18px;
     font-weight:bold;
@@ -129,17 +129,22 @@ button:hover{
 .progress-bar{
     width:0%;
     height:100%;
-    background:lime;
+    background:rgb(255, 0, 157);
     transition:1s;
 }
 
 .bmi-table{
     margin-top:25px;
+    padding: 15px;
     text-align:left;
+    border: 5px solid rgb(248, 149, 224);
+    border-radius: 20px;
+    background-color: rgba(129, 238, 4, 0.658);
 }
 
-.bmi-table h3{
+.bmi-table h2{
     margin-bottom:10px;
+    color: black;
 }
 
 .bmi-table ul{
@@ -148,7 +153,11 @@ button:hover{
 
 .bmi-table li{
     padding:6px 0;
+    font-size: large;
+    color: black;
+    font-weight: bold;
 }
+
 
 @media(max-width:500px){
     .card{
