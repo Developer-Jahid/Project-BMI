@@ -134,12 +134,12 @@ button:hover{
 }
 
 .bmi-table{
-    margin-top:25px;
-    padding: 15px;
+     margin-top:20px;
+    padding:15px;
+    border-radius:10px;
+    background:rgba(244, 238, 238, 0.15);
     text-align:left;
-    border: 5px solid rgb(248, 149, 224);
-    border-radius: 20px;
-    background-color: rgba(129, 238, 4, 0.658);
+   
 }
 
 .bmi-table h2{
@@ -154,7 +154,6 @@ button:hover{
 .bmi-table li{
     padding:6px 0;
     font-size: large;
-    color: black;
     font-weight: bold;
 }
 
@@ -163,4 +162,22 @@ button:hover{
     .card{
         width:100%;
     }
+}
+
+.advice-box{
+    margin-top:20px;
+    padding:15px;
+    border-radius:10px;
+    background:rgba(234, 229, 229, 0.15);
+    text-align:left;
+}
+
+.advice-box h3{
+    margin-bottom:10px;
+}
+
+#advice{
+    line-height:1.6;
+    font-size:15px;
+    font-weight: bold;
 }

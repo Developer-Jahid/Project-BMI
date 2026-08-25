@@ -8,51 +8,82 @@
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <div class="card">
-            <h1>BMI Calculator</h1>
-            <p class="subtitle">Check Your Body Mass Index</p>
+    <div class="card">
 
-            <form id="bmiForm">
+        <h1>BMI Calculator</h1>
+        <p class="subtitle">Check Your Body Mass Index</p>
 
-                <div class="input-group">
-                    <label for="height">Height (cm)</label>
-                    <input type="number" id="height" placeholder="Enter height" required>
-                </div>
+        <form id="bmiForm">
 
-                <div class="input-group">
-                    <label for="weight">Weight (kg)</label>
-                    <input type="number" id="weight" placeholder="Enter weight" required>
-                </div>
+            <div class="input-group">
+                <label for="height">Height (cm)</label>
+                <input
+                    type="number"
+                    id="height"
+                    placeholder="Enter your height"
+                    required
+                >
+            </div>
 
-                <button type="submit">Calculate BMI</button>
+            <div class="input-group">
+                <label for="weight">Weight (kg)</label>
+                <input
+                    type="number"
+                    id="weight"
+                    placeholder="Enter your weight"
+                    required
+                >
+            </div>
 
-            </form>
+            <button type="submit">Calculate BMI</button>
 
-            <div class="result-box">
-                <h2 id="bmiValue">0.00</h2>
-                <p id="status">Your BMI Status</p>
+        </form>
 
-                <div class="progress">
-                    <div class="progress-bar" id="progressBar"></div>
+        <div class="result-box">
+
+            <h2 id="bmiValue">0.00</h2>
+
+            <p id="status">
+                Your BMI Status
+            </p>
+
+            <div class="progress">
+                <div
+                    class="progress-bar"
+                    id="progressBar">
                 </div>
             </div>
 
-            <div class="bmi-table">
-                <h2>BMI Categories</h2>
-                <ul class=" bmi-list">
-                    <li>Underweight : Below 18.5</li>
-                    <li>Normal : 18.5 - 24.9</li>
-                    <li>Overweight : 25 - 29.9</li>
-                    <li>Obese : 30+</li>
-                </ul>
-            </div>
+        </div>
+
+        <div class="advice-box">
+            <h3>Health Advice</h3>
+
+            <p id="advice">
+                Enter your height and weight to get personalized advice.
+            </p>
+        </div>
+
+        <div class="bmi-table">
+
+            <h3>BMI Categories</h3>
+
+            <ul>
+                <li>Underweight : Below 18.5</li>
+                <li>Normal Weight : 18.5 - 24.9</li>
+                <li>Overweight : 25 - 29.9</li>
+                <li>Obese : 30+</li>
+            </ul>
 
         </div>
 
     </div>
 
-    <script src="bmi.js"></script>
+</div>
+
+<script src="bmi.js"></script>
+
 </body>
 </html>
